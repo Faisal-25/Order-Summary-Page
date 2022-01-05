@@ -1,0 +1,87 @@
+
+body{
+font-family:'Cabin';
+background-color:#e5dff5;
+  }
+
+
+
+
+  .card{
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ margin-top:1.3rem;
+  margin-left: 35rem;
+  margin-right:35rem;
+  border-radius: 25px;
+
+
+}
+.card-img-top{
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+.card-title{
+  text-align: center;
+
+  font-size: 2rem;
+  margin-top: 2rem;
+}
+.card-text{
+  text-align: center;
+
+  padding-left: 4rem;
+  padding-right: 4rem;
+  margin-top: 1.5rem;
+  font-weight:bold;
+  color:grey;
+}
+.card-payment{
+  display: flex;
+  margin-top:2rem;
+}
+.card-payment-plan{
+
+  padding-left: 1.3rem;
+  padding-right: 3rem;
+  width:200px;
+}
+.card-payment-image{
+  padding-left: 2rem;
+}
+.card-payment-plan h6{
+  font-weight: normal;
+  font-family: 'Ubuntu';
+  color:grey;
+}
+.card-payment-button{
+  margin-top: 7.5px;
+}
+.ctp{
+  text-align: center;
+  margin-top: 2.5rem;
+
+}
+.btn-style{
+  background-color: #3829e0;
+
+  font-family:'Cabin';
+  width:90%;
+  border-radius: 15px;
+}
+.btn-style:hover{
+  background-color: #6329e0;
+}
+.ctp-cancel{
+  margin-top:2.2rem;
+  margin-bottom:1.6rem;
+}
+.ctp-cancel a{
+
+  text-decoration: none;
+  color:grey;
+
+  font-weight: bold;
+}
+.ctp-cancel a:hover{
+  color:black;
+}
